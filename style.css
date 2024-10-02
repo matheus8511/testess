@@ -1,0 +1,219 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1:hover, h2:hover, h3:hover {
+  color: #D98C4A; /* Altere para a cor que você deseja quando o mouse passar */
+  transition: color 0.3s ease-in-out; /* Transição suave na mudança de cor */
+}
+
+
+h1:hover, h2:hover, h3:hover {
+  color: #D98C4A; /* Altere para a cor que você deseja quando o mouse passar */
+  transition: color 0.3s ease-in-out; /* Transição suave na mudança de cor */
+}
+
+
+
+/* Header */
+.custom-header {
+  width: 100vw;
+  height: 100vh;
+  background: #40322A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 700px;
+  width: 40%;
+  animation: zoomIn 1s ease;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #D98C4A;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Post Section */
+.post-section {
+  padding: 3rem 0;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post {
+ 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #D98C4A;
+}  
+
+
+
+.post-title {
+  border-bottom: 5px solid #fefefe30;
+
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-image {
+  width: 50%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #D98C4A;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Article Section */
+.article-section {
+  padding: 3rem 0;
+}
+
+.article-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.read-more:hover {
+  background-color: #C97530;
+}
+
+/* Highlights Section */
+.highlights-section {
+  padding: 3rem 0;
+  background-color: #f4f4f4;
+}
+
+.highlights-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.highlight-card {
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.highlight-image {
+  width: 100%;
+  height: auto;
+}
+
+.highlight-content {
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #40322A;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.social-icon {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.social-icon:hover {
+  color: #D98C4A;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .post-image, .highlight-image {
+    height: auto;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+
+
+
+@media (max-width: 576px) {
+  .logo {
+    width: 400vw; /* 50% da largura da tela em dispositivos móveis */
+    max-width: 900px; /* Limite máximo para a logo em dispositivos menores */
+  }
+}
+
+
+
+.navbar-brand:hover {
+  color: #D98C4A; /* Escolha a cor desejada */
+  transition: color 0.3s ease-in-out; /* Transição suave */
+}
