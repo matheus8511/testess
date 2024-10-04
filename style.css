@@ -206,7 +206,7 @@ footer {
 
 @media (max-width: 576px) {
   .logo {
-    width: 300vw; /* 50% da largura da tela em dispositivos móveis */
+    width: 100%; /* 50% da largura da tela em dispositivos móveis */
     max-width: 900px; /* Limite máximo para a logo em dispositivos menores */
   }
 }
