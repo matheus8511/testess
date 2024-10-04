@@ -68,26 +68,31 @@ h1:hover, h2:hover, h3:hover {
 }
 
 /* Seção de Artigos */
+/* Seção de Artigos */
 .article-section {
   padding: 3rem 0;
 }
 
-.article-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 2rem;
+.article-container {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
 }
 
 .card {
+  width: calc(20% - 1rem); /* Cada card ocupa 20% da linha com espaçamento */
   background-color: #fff;
   border: none;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
+
 
 .card-img {
   width: 100%;
   height: auto;
+  align-self: flex-start;
 }
 
 .card-content {
