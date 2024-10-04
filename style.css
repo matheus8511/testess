@@ -55,44 +55,12 @@ h1:hover, h2:hover, h3:hover {
   border-radius: 5px;
 }
 
-/* Post Section */
-.post-section {
-  padding: 3rem 0;
-}
-
-.section-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.post {
- 
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #D98C4A;
-}  
 
 
 
-.post-title {
-  border-bottom: 5px solid #fefefe30;
 
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 
-.post-image {
-  width: 50%;
-  height: auto;
-  margin-bottom: 1.5rem;
-}
+
 
 .read-more {
   display: inline-block;
@@ -208,11 +176,87 @@ footer {
   .logo {
     width: 100%; /* 50% da largura da tela em dispositivos móveis */
     max-width: 900px; /* Limite máximo para a logo em dispositivos menores */
+    
   }
+
+  
+/* Header */
+.custom-header {
+  width: 100vw;
+  height: 100vh;
+  background: #40322A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #D98C4A;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.read-more {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #D98C4A;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+  /* Article Section */
+.article-section {
+  padding: 3rem 0;
+}
+
+.article-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.read-more:hover {
+  background-color: #C97530;
+}
 
 
   .highlights-section {
-    padding: 3rem 0;
+    
     background-color: #f4f4f4;
   }
   
@@ -229,13 +273,12 @@ footer {
   }
   
   .highlight-image {
-    width:  90%;
+    width: 100%;
     height: auto;
   }
   
   .highlight-content {
-    padding-top: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
   }
 
 
