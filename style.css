@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: light;
+  src: url(/fontes/Roboto-Condensed.ttf);
+}
+
 /* Body */
 body {
   font-family: 'Roboto', sans-serif;
@@ -16,6 +21,15 @@ body {
 h1:hover, h2:hover, h3:hover {
   color: #D98C4A; /* Cor alterada ao passar o mouse */
   transition: color 0.3s ease-in-out; /* Transição suave */
+}
+ h3 {
+  font-family: Robotoo;
+  line-height: 1.3;
+}
+
+p {
+  font-family: light;
+  
 }
 
 /* Header */
@@ -67,42 +81,22 @@ h1:hover, h2:hover, h3:hover {
   background-color: #C97530;
 }
 
-/* Seção de Artigos */
-/* Seção de Artigos */
-.article-section {
-  padding: 3rem 0;
-}
 
-.article-container {
-  display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    width: 100%;
-}
-
-.card {
-  width: calc(20% - 1rem); /* Cada card ocupa 20% da linha com espaçamento */
-  background-color: #fff;
-  border: none;
-  margin-bottom: 1rem;
-}
-
-
-.card-img {
-  width: 100%;
-  height: auto;
-  align-self: flex-start;
-}
-
-.card-content {
-  padding: 1rem;
-}
 
 /* Seção de Destaques */
 .highlights-section {
   padding: 3rem 0;
   background-color: #f4f4f4;
+}
+
+
+.highlights-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .highlights-title {
@@ -113,6 +107,7 @@ h1:hover, h2:hover, h3:hover {
 }
 
 .highlight-card {
+  width: 300px;
   background-color: #fff;
   margin-bottom: 2rem;
 }
@@ -169,4 +164,4 @@ footer {
     width: 100%; /* 100% da largura da tela em dispositivos móveis */
     max-width: 900px; /* Limite máximo para a logo */
   }
-}
+
